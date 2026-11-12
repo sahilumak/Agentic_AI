@@ -26,15 +26,21 @@ These topics reflect my learning notes and experiments so far. I will add topics
 | Gemini integration | Studied |
 | Streaming | Studied |
 | Batching | Studied |
-| Tool calling | In progress |
-| Structured output (Pydantic / TypedDict) | To explore |
+| Tool calling | Basic tool binding and tool-call inspection practiced; execution loop needs debugging |
+| Structured output (Pydantic / TypedDict) | Pydantic concepts documented; implementation pending |
 | Middleware | To explore |
 
 > Progress labels are intentionally conservative: a topic is not marked complete until there is a concrete example or implementation to support it.
 
 ## Repository Structure
 
-As practical examples are added, this README will link to the relevant files and explain what each example demonstrates.
+The notebooks below contain the current examples and notes:
+
+- [Model integration with Google Gemini](UpdatedLangchain/1-Model-Integration.ipynb)
+- [Streaming and batching](UpdatedLangchain/2-Streaming-Batch.ipynb)
+- [Tool creation and tool-call inspection](UpdatedLangchain/3-Tools-Creation.ipynb) — the manual execution loop still needs debugging.
+- [Tool demo with a price lookup](UpdatedLangchain/4-Demo-Tool.ipynb) — includes a tool-call example; a later notebook cell records a kernel crash.
+- [Structured output and Pydantic notes](UpdatedLangchain/5-Structured-Output(Pydantic).ipynb) — explanatory notes are present, but the code cell is still empty.
 
 ## Goal
 
